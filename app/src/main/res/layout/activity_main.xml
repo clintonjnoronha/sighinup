@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tialbak"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGNUP ACTIVITY"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/uid"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"
+        android:background="@color/black"
+        android:hint="Enter Username"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30dp" />
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Password"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="30dp"
+        android:inputType="textPassword"
+        android:id="@+id/pid"
+
+
+        />
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Full Name"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="30dp"
+        android:id="@+id/fid"
+
+        />
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:hint="Enter USN"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="30dp"
+        android:id="@+id/usn"
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter DOB "
+        android:ems="10"
+        android:inputType="date"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/eid"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter email ID"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:onClick="signup"
+        android:text="SIGN UP"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+        />
+
+
+
+</LinearLayout>
